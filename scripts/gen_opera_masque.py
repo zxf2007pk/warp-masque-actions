@@ -33,37 +33,37 @@ REGIONS = {"AS": "亚洲", "EU": "欧洲", "AM": "美洲"}
 
 RS = "https://raw.githubusercontent.com"
 RULESETS = [
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list")
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/UnBan.list")
-    ("🛑 广告拦截", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/BanAD.list")
-    ("🍃 应用净化", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list")
-    ("📢 谷歌FCM", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list")
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list")
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list")
-    ("Ⓜ️ 微软Bing", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Bing.list")
-    ("Ⓜ️ 微软云盘", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list")
-    ("Ⓜ️ 微软服务", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list")
-    ("🍎 苹果服务", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Apple.list")
-    ("📲 电报消息", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Telegram.list")
-    ("🤖 OpenAi", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list")
-    ("🤖 OpenAi", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list")
-    ("🎶 网易音乐", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list")
-    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list")
-    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list")
-    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list")
-    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list")
-    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list")
-    ("📹 油管视频", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list")
-    ("🎥 奈飞视频", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list")
-    ("📺 巴哈姆特", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list")
-    ("📺 哔哩哔哩", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list")
-    ("📺 哔哩哔哩", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list")
-    ("🌏 国内媒体", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list")
-    ("🌍 国外媒体", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list")
-    ("🚀 节点选择", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list")
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list")
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list")
-    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list")
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"),
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"),
+    ("🛑 广告拦截", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"),
+    ("🍃 应用净化", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"),
+    ("📢 谷歌FCM", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"),
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"),
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"),
+    ("Ⓜ️ 微软Bing", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Bing.list"),
+    ("Ⓜ️ 微软云盘", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"),
+    ("Ⓜ️ 微软服务", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"),
+    ("🍎 苹果服务", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Apple.list"),
+    ("📲 电报消息", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"),
+    ("🤖 OpenAi", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"),
+    ("🤖 OpenAi", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"),
+    ("🎶 网易音乐", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"),
+    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"),
+    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"),
+    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"),
+    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"),
+    ("🎮 游戏平台", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"),
+    ("📹 油管视频", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"),
+    ("🎥 奈飞视频", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"),
+    ("📺 巴哈姆特", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"),
+    ("📺 哔哩哔哩", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"),
+    ("📺 哔哩哔哩", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"),
+    ("🌏 国内媒体", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"),
+    ("🌍 国外媒体", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"),
+    ("🚀 节点选择", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"),
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"),
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"),
+    ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"),
     ("🎯 全球直连", f"{RS}/ACL4SSR/ACL4SSR/master/Clash/Download.list")
     ]
 
